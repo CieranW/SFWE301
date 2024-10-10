@@ -35,10 +35,6 @@ public class Book {
         return isBorrowed;
     }
 
-    public void borrowBook() {
-        isBorrowed = true;
-    }
-
     public void borrow() {
         if (!isBorrowed) {
             isBorrowed = true;
