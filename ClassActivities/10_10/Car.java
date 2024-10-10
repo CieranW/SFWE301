@@ -34,4 +34,22 @@ public class Car {
     public boolean getIsRented() {
         return this.isRented;
     }
+
+    public void rentCar() {
+        if (!this.isRented) {
+            this.isRented = true;
+            System.out.println("Car rented.");
+        } else {
+            System.out.println("Car is already rented.");
+        }
+    }
+
+    public void returnCar() {
+        if (this.isRented) {
+            this.isRented = false;
+            System.out.println("Car returned.");
+        } else {
+            System.out.println("Car is not rented.");
+        }
+    }
 }
