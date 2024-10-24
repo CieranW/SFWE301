@@ -33,6 +33,9 @@ public class BasicCalculator {
                     }
                     result = firstNumber / secondNumber;
                     break;
+                case "^":
+                    result = Math.pow(firstNumber, secondNumber);
+                    break;
                 default:
                     System.out.println("Invalid operation");
                     break;
