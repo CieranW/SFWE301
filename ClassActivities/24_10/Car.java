@@ -9,8 +9,8 @@ public class Car extends Vehicle {
     }
 
     @Override
-    public void printVehicle() {
-        super.printVehicle();
+    public void displayInfo() {
+        super.displayInfo();
         System.out.println("Doors: " + numDoors);
         System.out.println("Color: " + color);
     }

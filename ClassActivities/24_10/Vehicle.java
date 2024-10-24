@@ -9,7 +9,7 @@ public class Vehicle {
         this.year = year;
     }
 
-    public void printVehicle() {
+    public void displayInfo() {
         System.out.println("Make: " + make);
         System.out.println("Model: " + model);
         System.out.println("Year: " + year);
